@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/aisyah"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Developer's Photo" />
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity Bill Estimator"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+
+
+        <!-- Description Section -->
+        <TextView
+            android:layout_width="302dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Description:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Save time with Electro Voltage.\nLet us do the calculation for you!"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Developer Details Section -->
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Developed by:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Name: Siti Aisyah binti Ashri\nStudent ID: 2021826476\nGroup: RCS2405B"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- GitHub Button -->
+        <Button
+            android:id="@+id/github_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GITHUB"
+            android:textAllCaps="true"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Copyright Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2024 Syahshri Sdn Bhd. All rights reserved."
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

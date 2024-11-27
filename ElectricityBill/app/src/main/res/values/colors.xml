@@ -1,0 +1,13 @@
+<resources>
+    <!-- Primary Theme Colors -->
+    <color name="colorPrimary">#021C50</color>
+    <color name="colorPrimaryDark">#021C50</color>
+    <color name="colorAccent">#EECA28</color>
+
+    <!-- Additional Colors -->
+    <color name="colorSecondary">#F39200</color>
+    <color name="backgroundLight">#D6DAC8</color>
+    <color name="backgroundDark">#283340</color>
+    <color name="textDark">#0D0D0D</color>
+    <color name="textWhite">#FFFFFF</color>
+</resources>
