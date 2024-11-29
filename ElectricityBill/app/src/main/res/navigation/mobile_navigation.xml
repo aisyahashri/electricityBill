@@ -1,0 +1,27 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <!-- Home links to BillCalculationFragment -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.electricitybill.ui.electricitybill.BillCalculationFragment"
+        android:label="Electro Voltage"
+        tools:layout="@layout/fragment_bill_calculation" />
+
+    <!-- Formula Page -->
+    <fragment
+        android:id="@+id/navigation_formula"
+        android:name="com.example.electricitybill.ui.formula.FormulaFragment"
+        android:label="Electro Voltage"
+        tools:layout="@layout/fragment_formula" />
+
+    <!-- About Us Page -->
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.example.electricitybill.ui.about.AboutUsFragment"
+        android:label="Electro Voltage"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

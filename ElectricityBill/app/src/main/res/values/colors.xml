@@ -1,0 +1,24 @@
+<resources>
+    <!-- Primary Theme Colors -->
+    <color name="colorPrimary">#021C50</color>
+    <color name="colorPrimaryDark">#021C50</color>
+    <color name="colorAccent">#da9824</color>
+
+    <!-- Additional Colors -->
+    <color name="colorSecondary">#F39200</color>
+
+    <!-- Background colors -->
+    <color name="backgroundLight">#D6DAC8</color>  <!-- Day background -->
+    <color name="backgroundDark">#1f2227</color>   <!-- Night background -->
+
+    <!-- Text colors -->
+    <color name="textDark">#0D0D0D</color>         <!-- Day text -->
+    <color name="textWhite">#FFFFFF</color>        <!-- Night text -->
+    <color name="buttonColor">#EECA28</color> <!-- Default button color (day) -->
+
+    <!-- Light Mode Colors -->
+    <color name="table_background_light">#6ea9f9</color> <!-- Table background color in light mode -->
+    <color name="header_background_light">#da9824</color> <!-- Header background color in light mode -->
+    <color name="text_dark">#000000</color> <!-- Text color in light mode (dark text for light background) -->
+
+</resources>

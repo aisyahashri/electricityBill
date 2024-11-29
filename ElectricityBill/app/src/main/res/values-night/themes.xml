@@ -1,0 +1,16 @@
+<resources>
+    <!-- Primary Theme Colors for Night -->
+    <color name="colorPrimary">#da9824</color>
+    <color name="colorPrimaryDark">#1A1A1A</color>
+    <color name="colorAccent">#1266c5</color>
+
+    <!-- Additional Colors -->
+    <color name="colorSecondary">#F39200</color>
+
+    <!-- Background page colors for Night -->
+    <color name="backgroundLight">#1f2227</color>  <!-- Dark background color for night mode -->
+
+    <!-- Text colors for Night -->
+    <color name="textDark">#FFFFFF</color>  <!-- Light text color for night mode -->
+    <color name="textWhite">#FFFFFF</color>  <!-- White text color for night mode -->
+</resources>
