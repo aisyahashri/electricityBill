@@ -11,4 +11,4 @@
   
 Feel free to watch the **Application Demonstration** below:
 
-  [![YouTube](http://i.ytimg.com/vi/iQQAqWeNnlQ/hqdefault.jpg)](https://www.youtube.com/watch?v=iQQAqWeNnlQ)
+[![YouTube](http://i.ytimg.com/vi/L7tMhFYBCTI/hqdefault.jpg)](https://www.youtube.com/watch?v=L7tMhFYBCTI)
