@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        android:iconTint="@color/textWhite"
+        android:titleTextColor="@color/textWhite" />
+
+    <item
+        android:id="@+id/navigation_formula"
+        android:icon="@drawable/logo"
+        android:title="Tariff Rates"
+        android:iconTint="@color/textWhite"
+        android:titleTextColor="@color/textWhite" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/about"
+        android:title="About Us"
+        android:iconTint="@color/textWhite"
+        android:titleTextColor="@color/textWhite" />
+</menu>
+
+
+
+
+
+

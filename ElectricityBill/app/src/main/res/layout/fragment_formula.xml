@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electricity_rate_formula_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textColor="@color/textDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electricity_rate_description"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <!-- Table Layout -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:elevation="4dp">
+
+            <!-- Header Row -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:background="@color/colorPrimary"
+                    android:text="Block"
+                    android:textColor="@color/textWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/textWhite"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Charges (sen/kWh)"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <!-- Row 1 -->
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="8dp"
+                    android:text="@string/block_1"
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/block_1_rate"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <!-- Row 2 -->
+            <TableRow>
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="8dp"
+                    android:text="@string/block_2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/block_2_rate"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <!-- Row 3 -->
+            <TableRow>
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="8dp"
+                    android:text="@string/block_3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/block_3_rate"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <!-- Row 4 -->
+            <TableRow>
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="8dp"
+                    android:text="@string/block_4"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:textColor="@color/textWhite"
+                    android:background="@color/colorAccent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/block_4_rate"
+                    android:textSize="14sp" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
