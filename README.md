@@ -8,7 +8,13 @@
 - Matrix Number: 2021826476
 - Group: RCS2405B
 - Program code: CS240
-  
-Feel free to watch the **Application Demonstration** below:
 
-[![YouTube](http://i.ytimg.com/vi/mHU9UP-hl9E/hqdefault.jpg)](https://www.youtube.com/watch?v=mHU9UP-hl9E)
+## **Website Preview**
+
+![image](https://github.com/aisyahashri/electricityBill/blob/65b1ac20a2d36f287fc3a7ae22d9eb1ad503c960/estimatorBill.png)
+  
+## Application Demonstration on Youtube
+
+[![YouTube](http://i.ytimg.com/vi/mHU9UP-hl9E/hqdefault.jpg)](https://youtu.be/mHU9UP-hl9E)
+
+
